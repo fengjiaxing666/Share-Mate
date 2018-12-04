@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_bottom_text_normal">#ff847d7b</color>
+    <color name="main_botton_text_select">#ff333333</color>
+    <color name="main_bottom_bg">#11000000</color>
+    <color name="essence_tab_bg">#12000000</color>
+    <color name="essence_tab_text_color_normal">#ff847d7b</color>
+    <color name="essence_tab_text_color_press">#FF4801</color>
+    <color name="back">#5c0932</color>
+    <color name="back1">#310136</color>
+    <color name="button">#de4138</color>
+    <color name="lightgray">#f8f8f8</color>
+    <color name="darkgray">#989898</color>
+    <color name="deepGray">#999999</color>
+    <color name="gray">#b5b5b5</color>
+    <color name="warmRed">#de4138</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grayishBlue">#f4f8fb</color>
+    <color name="inkGray">#333333</color>
+    <color name="vividRed">#ff2742</color>
+    <color name="brightRed">#ea4149</color>
+    <color name="deepRed">#bc403a</color>
+    <color name="lightGray">#e8e8e8</color>
+    <color name="lessGray">#d5d5d5</color>
+    <color name="brightBlue">#3478f6</color>
+</resources>

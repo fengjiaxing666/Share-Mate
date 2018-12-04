@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="priceSize">27sp</dimen>
+    <dimen name="deletePriceSize">13sp</dimen>
+    <dimen name="productName">18sp</dimen>
+</resources>

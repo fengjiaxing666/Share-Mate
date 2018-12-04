@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="选择感兴趣的内容"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/TextSize_2" />
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <CheckBox
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/beauty"/>
+        <CheckBox
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/travel"/>
+        <CheckBox
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/sport"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <CheckBox
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/food"/>
+        <CheckBox
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/science"/>
+        <CheckBox
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/anime"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="下一步"
+        android:textSize="@dimen/Button"
+        android:textColor="@color/white"
+        android:background="@drawable/button_style"/>
+</LinearLayout>

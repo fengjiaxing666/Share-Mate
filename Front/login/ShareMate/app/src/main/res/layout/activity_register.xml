@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/photo" />
+
+    <LinearLayout
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/username" />
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@null"
+            android:hint="请输入用户名"
+            android:textSize="@dimen/TextSize_4" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="201dp"
+        android:layout_height="0.5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorView" />
+
+    <LinearLayout
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/pswd" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@null"
+            android:hint="请输入密码"
+            android:textSize="@dimen/TextSize_4" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="201dp"
+        android:layout_height="0.5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorView" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/phone" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:hint="请输入联系方式"
+            android:textSize="@dimen/TextSize_4" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="201dp"
+        android:layout_height="0.5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorView" />
+
+    <Button
+        android:id="@+id/btn_true"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_style"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="@dimen/Button" />
+</LinearLayout>

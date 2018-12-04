@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="deepRed">#bc403a</color>
+    <color name="warmRed">#de4138</color>
+    <color name="colorBlue">#0000ff</color>
+
+    <color name="vividRed">#ff2742</color>
+    <color name="colorView">#CCCCCC</color><!--下划线-->
+    <color name="colorButton">#FF2741</color><!--按钮颜色-->
+    <color name="colorGoLogin">#5B92FF</color><!--已有账号，登录字体颜色-->
+    <color name="colorBlack">#333333</color><!--个性化定制字体颜色-->
+    <color name="colorText">#999999</color><!--其他字体颜色-->
+    <color name="colorSkip">#D1D1D1</color><!--跳过字体颜色-->
+    <color name="white">#ffffff</color>
+    <color name="grayishBlue">#f4f8fb</color><!--背景颜色-->
+    <color name="three">#252423</color>
+
+    <!--验证码-->
+    <color name="transparent">#00000000</color>
+    <color name="translucent_white">#61FFFFFF</color>
+
+    <!--选择地区-->
+    <color name="blue">#0066FF</color>
+    <color name="no_color">#00000000</color>
+    <color name="bg_color">#F4F3F3</color>
+    <color name="bg_color_deep">#E5E5E5</color>
+    <color name="black">#000000</color>
+    <color name="text_color">#434343</color>
+    <color name="black_half">#50000000</color>
+    <color name="single_searcg_bg">#8B8682</color>
+    <color name="common_top_bar_blue">#22292c</color>
+
+
+</resources>
